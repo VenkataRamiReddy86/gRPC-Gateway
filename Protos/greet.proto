@@ -1,7 +1,7 @@
 syntax = "proto3";
 package greet;
 import "google/api/annotations.proto";
-option go_package = "google.golang.org/Protos/greet;greet";
+option go_package = "https://github.com/VenkataRamiReddy86/gRPC-Gateway/blob/main/Protos/greet;greet";
 
 // The greeting service definition.
 service Greeter {
