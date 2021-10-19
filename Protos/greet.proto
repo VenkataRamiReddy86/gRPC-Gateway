@@ -3,7 +3,7 @@ package greet;
 import "google/api/annotations.proto";
 option go_package = "https://github.com/VenkataRamiReddy86/gRPC-Gateway/blob/main/Protos/greet;greet";
 
-// The greeting service definition.
+// The greeting service definition. modified
 service Greeter {
   // Sends a greeting
   rpc SayHello (HelloRequest) returns (HelloReply)
